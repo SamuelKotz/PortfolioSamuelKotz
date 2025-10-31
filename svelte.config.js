@@ -25,10 +25,7 @@ const config = {
 	preprocess: [vitePreprocess(), mdsvex(mdsvexOptions)],
 
 	kit: {
-		adapter: adapter({
-            fallback: '404.html',
-            strict: true
-        }),
+		adapter: adapter(),
         paths: {
             base: '/me'
         }
