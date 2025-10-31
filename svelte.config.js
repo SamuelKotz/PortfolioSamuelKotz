@@ -32,7 +32,7 @@ const config = {
             strict: true
         }),
         paths: {
-            base: '/me',
+            base: '/me'
         }
 	}
 };
