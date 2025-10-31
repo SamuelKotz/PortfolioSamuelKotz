@@ -1,8 +1,8 @@
 import adapter from '@sveltejs/adapter-static';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
-
 import { mdsvex, escapeSvelte } from 'mdsvex';
 import { createHighlighter } from 'shiki';
+
 const mdsvexOptions = {
 	extensions: ['.md'],
 	highlight: {
@@ -18,6 +18,7 @@ const mdsvexOptions = {
 		}
 	}
 };
+
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
 	extensions: ['.svelte', '.md'],
@@ -25,17 +26,11 @@ const config = {
 
 	kit: {
 		adapter: adapter({
-            pages: 'docs',
-            assets: 'docs',
             fallback: '404.html',
-            precompress: false,
             strict: true
         }),
         paths: {
             base: '/me'
-        },
-        prerender: {
-            entries: ['*']
         }
 	}
 };
