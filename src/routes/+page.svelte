@@ -162,7 +162,7 @@
 					<p
 						class="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed"
 					>
-						Want to chat? Just shoot me a dm in instagram
+						Want to chat? Just shoot me a dm on instagram
 						and I&apos;ll respond you :)
 					</p>
 				</div>
