@@ -35,7 +35,7 @@ const config = {
             base: '/me'
         },
         prerender: {
-            handleHttpError: 'warn'
+            entries: ['*']
         }
 	}
 };
