@@ -8,7 +8,14 @@
 	import Button from '$lib/components/ui/button/button.svelte';
 	import { mode } from 'mode-watcher';
     import { base } from '$app/paths';
+    import { locale, _ } from 'svelte-i18n'; // Import i18n
+    import { Languages } from 'lucide-svelte'; // Import icon
+
 	$: theme = $mode;
+
+    function toggleLocale() {
+        $locale = $locale === 'en' ? 'pt' : 'en';
+    }
 </script>
 
 <div
@@ -23,17 +30,16 @@
 		let:distance
 		let:mouseX
 	>
-		{#each DATA.navbar as item}
+		{#each DATA.navbar as item, i}
 			<DockIcon {magnification} {mouseX} {distance}>
 				<Tooltip.Root openDelay={300}>
 					<Tooltip.Trigger>
 						<Button href="{base}{item.href}" variant="ghost" size="icon" class="size-12 rounded-full">
-							<!-- <item.icon class="size-4" /> -->
 							<svelte:component this={item.icon} class="size-[18px]" strokeWidth={1.5} />
 						</Button>
 					</Tooltip.Trigger>
 					<Tooltip.Content>
-						<p>{item.label}</p>
+						<p>{$_(`navbar.${i}.label`)}</p>
 					</Tooltip.Content>
 				</Tooltip.Root>
 			</DockIcon>
@@ -41,33 +47,52 @@
 		<Separator orientation="vertical" class="h-full" />
 		{#each Object.entries(DATA.contact.social)
 			.filter(([_, social]) => social.navbar)
-			.map(([_, social]) => social) as social}
+			.map(([key, social]) => ({...social, key })) as social}
 			<DockIcon {magnification} {mouseX} {distance}>
 				<Tooltip.Root openDelay={300}>
 					<Tooltip.Trigger>
 						<Button href="{social.url}" variant="ghost" size="icon" class="size-12 rounded-full">
-							<!-- <svelte:component this={social.icon} class="size-4" strokeWidth={1.5} /> -->
 							{#if social?.dark_icon && theme === 'dark'}
-								<img src="{social?.dark_icon}" class="size-4" alt="{social.name}" />
+								<img src="{social?.dark_icon}" class="size-4" alt={$_(`contact.social.${social.key}.name`)} />
 							{:else}
-								<img src="{social.icon}" class="size-[18px]" alt="{social.name}" />
+								<img src="{social.icon}" class="size-[18px]" alt={$_(`contact.social.${social.key}.name`)} />
 							{/if}
 						</Button>
 					</Tooltip.Trigger>
 					<Tooltip.Content>
-						<p>{social.name}</p>
+						<p>{$_(`contact.social.${social.key}.name`)}</p>
 					</Tooltip.Content>
 				</Tooltip.Root>
 			</DockIcon>
 		{/each}
 		<Separator orientation="vertical" class="h-full py-2" />
+        
+        <!-- Language Switcher -->
+        <DockIcon {magnification} {mouseX} {distance}>
+			<Tooltip.Root openDelay={300}>
+				<Tooltip.Trigger>
+                    <Button
+                        on:click={toggleLocale}
+                        variant="ghost"
+                        size="icon"
+                        class="size-12 rounded-full"
+                    >
+                        <Languages class="size-[18px]" strokeWidth={1.5} />
+                    </Button>
+				</Tooltip.Trigger>
+				<Tooltip.Content>
+                    <p>{$locale === 'en' ? 'Mudar para Português' : 'Switch to English'}</p>
+				</Tooltip.Content>
+			</Tooltip.Root>
+		</DockIcon>
+
 		<DockIcon {magnification} {mouseX} {distance}>
 			<Tooltip.Root openDelay={300}>
 				<Tooltip.Trigger>
 					<ModeToggle />
 				</Tooltip.Trigger>
 				<Tooltip.Content>
-					<p>Theme</p>
+					<p>{$_('theme_toggle.tooltip')}</p>
 				</Tooltip.Content>
 			</Tooltip.Root>
 		</DockIcon>

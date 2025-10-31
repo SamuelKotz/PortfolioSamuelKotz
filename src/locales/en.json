@@ -1,0 +1,114 @@
+{
+  "name": "Samuel Kotz",
+  "initials": "SK",
+  "location": "Lajeado, Brazil",
+  "description": "Software Developer @SupernovaBR — coffee lover, gamer, and proud Christian.",
+  "summary": "My name is Samuel Kotz, I'm 18 years old, originally from Brasília, Brazil, and currently living in Lajeado. I'm a Software Developer at @SupernovaBR, a tech company based in São Paulo, and a student at IFSul studying Industrial Automation. I'm passionate about technology and love building everything from websites and backend systems to AI applications.",
+  "navbar": [
+    { "label": "Home" },
+    { "label": "Projects" }
+  ],
+  "contact": {
+    "social": {
+      "GitHub": { "name": "GitHub" },
+      "LinkedIn": { "name": "LinkedIn" },
+      "X": { "name": "X" },
+      "Instagram": { "name": "Instagram" },
+      "email": { "name": "Send Email" }
+    }
+  },
+  "work": [
+    {
+      "company": "SupernovaBR",
+      "location": "Hybrid",
+      "title": "Software Developer",
+      "start": "Sep 2024",
+      "end": "At moment",
+      "description": "I am responsible for developing and maintaining a variety of systems, including chatbots, AI solutions, databases, and websites. My work spans from defining software scopes to implementation and delivery, as well as leading training sessions and presenting technological solutions to teams and clients."
+    }
+  ],
+  "education_section": {
+    "title": "Education"
+  },
+  "education": [
+    {
+      "school": "IFSul - Campus Lajeado",
+      "degree": "High School Integrated with a Technical Course in Industrial Automation",
+      "description": "At IFSul, I am a high school student in the Integrated Industrial Automation program and my class leader. I have participated in training projects in programming, including AI courses from Huawei and UFRN (Federal University of Rio Grande do Norte), and in robotics."
+    }
+  ],
+  "certificates_section": {
+    "title": "Courses and Certifications"
+  },
+  "certificates": [
+    {
+      "title": "Programming Logic and Algorithms in JavaScript",
+      "issuer": "Cod3r Cursos / Udemy"
+    },
+    {
+      "title": "Basic Informatics",
+      "issuer": "IFSUL"
+    },
+    {
+      "title": "Computer Maintenance",
+      "issuer": "IFSUL"
+    },
+    {
+      "title": "Microsoft Azure AI Fundamentals: AI Overview",
+      "issuer": "Microsoft"
+    },
+    {
+      "title": "Fundamentals of Machine Learning",
+      "issuer": "Microsoft"
+    }
+  ],
+  "languages_section": {
+    "title": "Languages"
+  },
+  "languages": [
+    {
+      "language": "English",
+      "school": "UPTIME",
+      "description": "Intermediate writing | Advanced reading and comprehension"
+    }
+  ],
+  "projects": [
+    {
+      "title": "Nova Flow",
+      "dates": "Aug 25 - Oct 2025",
+      "description": "Nova Flow is a complete web application that simulates a Kanban board, allowing users to create boards, add lists (columns), and manage cards (tasks) with custom descriptions and checklists. Beyond task management, the project features an integrated CRM with modules for client information, health status, files, and meeting history — all enhanced with AI-powered features. It also includes a Custom Inventory system and a real-time Dashboard for monitoring customer service data."
+    },
+    {
+      "title": "Nova Docs",
+      "dates": "Oct 25 - Nov 25",
+      "description": "Nova Docs is a complete documentation solution for software, services, and products. Fully flexible, it allows users to customize and control the content according to their needs. It features an authentication system with differentiated access for visitors, users, and administrators — who can edit and manage content directly within the platform."
+    }
+  ],
+  "hero": {
+    "greeting": "Hi, I'm Samuel 👋",
+    "tagline": "I'm a software developer and student — driven by technology, games, coffee, and faith."
+  },
+  "about": {
+    "title": "About"
+  },
+  "work_experience": {
+    "title": "Work Experience"
+  },
+  "skills": {
+    "title": "Skills"
+  },
+  "projects_section": {
+    "title": "My Projects",
+    "subtitle": "Check out my latest work",
+    "description": "I've worked on a variety of projects, from simple websites to complex web applications. Here are a few of my favorites."
+  },
+  "contact_section": {
+    "title": "Contact",
+    "subtitle": "Get in Touch",
+    "description": "Want to chat? Just shoot me a dm on instagram and I'll respond you :)"
+  },
+  "theme_toggle": {
+    "tooltip": "Theme"
+  },
+  "present": "Present"
+}

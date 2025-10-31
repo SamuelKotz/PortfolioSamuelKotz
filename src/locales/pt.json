@@ -1,0 +1,114 @@
+{
+  "name": "Samuel Kotz",
+  "initials": "SK",
+  "location": "Lajeado, Brasil",
+  "description": "Desenvolvedor de Software @SupernovaBR — amante de café, jogador e cristão orgulhoso.",
+  "summary": "Meu nome é Samuel Kotz, tenho 18 anos, sou natural de Brasília, Brasil, e atualmente moro em Lajeado. Sou Desenvolvedor de Software na @SupernovaBR, uma empresa de tecnologia com sede em São Paulo, e estudante do IFSul no curso de Automação Industrial. Sou apaixonado por tecnologia e adoro construir de tudo, desde sites e sistemas de backend até aplicações de IA.",
+  "navbar": [
+    { "label": "Início" },
+    { "label": "Projetos" }
+  ],
+  "contact": {
+    "social": {
+      "GitHub": { "name": "GitHub" },
+      "LinkedIn": { "name": "LinkedIn" },
+      "X": { "name": "X" },
+      "Instagram": { "name": "Instagram" },
+      "email": { "name": "Enviar Email" }
+    }
+  },
+  "work": [
+    {
+      "company": "SupernovaBR",
+      "location": "Híbrido",
+      "title": "Desenvolvedor de Software",
+      "start": "Set 2024",
+      "end": "Atualmente",
+      "description": "Sou responsável por desenvolver e manter uma variedade de sistemas, incluindo chatbots, soluções de IA, bancos de dados e sites. Meu trabalho abrange desde a definição de escopos de software até a implementação e entrega, bem como a liderança de sessões de treinamento e a apresentação de soluções tecnológicas para equipes e clientes."
+    }
+  ],
+  "education_section": {
+    "title": "Educação"
+  },
+  "education": [
+    {
+      "school": "IFSul - Campus Lajeado",
+      "degree": "Ensino Médio Integrado ao técnico em automação industrial",
+      "description": "No IFSul sou estudante do Ensino Médio Integrado ao curso de Automação Industrial e líder da minha turma. Pude participar de projetos de capacitação na área de programação, como cursos de IA da Huawei e UFRN (Universidade Federal do Rio Grande do Norte) e na área de robótica."
+    }
+  ],
+  "certificates_section": {
+    "title": "Cursos e Certificações"
+  },
+  "certificates": [
+    {
+      "title": "Lógica da Programação e Algoritmos em JavaScript",
+      "issuer": "Cod3r Cursos / Udemy"
+    },
+    {
+      "title": "Informática Básica",
+      "issuer": "IFSUL"
+    },
+    {
+      "title": "Manutenção de Computadores",
+      "issuer": "IFSUL"
+    },
+    {
+      "title": "Microsoft Azure AI Fundamentals: AI Overview",
+      "issuer": "Microsoft"
+    },
+    {
+      "title": "Fundamentals of Machine Learning",
+      "issuer": "Microsoft"
+    }
+  ],
+  "languages_section": {
+    "title": "Idiomas"
+  },
+  "languages": [
+    {
+      "language": "Inglês",
+      "school": "UPTIME",
+      "description": "Escrita intermediária | Leitura e compreensão avançada"
+    }
+  ],
+  "projects": [
+    {
+      "title": "Nova Flow",
+      "dates": "Ago 25 - Out 2025",
+      "description": "O Nova Flow é uma aplicação web completa que simula um quadro Kanban, permitindo aos usuários criar quadros, adicionar listas (colunas) e gerenciar cartões (tarefas) com descrições e checklists personalizados. Além do gerenciamento de tarefas, o projeto possui um CRM integrado com módulos para informações de clientes, status de saúde, arquivos e histórico de reuniões — tudo aprimorado com recursos de IA. Também inclui um sistema de Inventário Personalizado e um Dashboard em tempo real para monitorar dados de atendimento ao cliente."
+    },
+    {
+      "title": "Nova Docs",
+      "dates": "Out 25 - Nov 25",
+      "description": "O Nova Docs é uma solução completa de documentação para software, serviços e produtos. Totalmente flexível, permite aos usuários personalizar e controlar o conteúdo de acordo com suas necessidades. Possui um sistema de autenticação com acesso diferenciado para visitantes, usuários e administradores — que podem editar e gerenciar o conteúdo diretamente na plataforma."
+    }
+  ],
+  "hero": {
+    "greeting": "Olá, eu sou o Samuel 👋",
+    "tagline": "Sou desenvolvedor de software e estudante — movido por tecnologia, jogos, café e fé."
+  },
+  "about": {
+    "title": "Sobre"
+  },
+  "work_experience": {
+    "title": "Experiência de Trabalho"
+  },
+  "skills": {
+    "title": "Habilidades"
+  },
+  "projects_section": {
+    "title": "Meus Projetos",
+    "subtitle": "Confira meu trabalho mais recente",
+    "description": "Trabalhei em uma variedade de projetos, desde sites simples até aplicações web complexas. Aqui estão alguns dos meus favoritos."
+  },
+  "contact_section": {
+    "title": "Contato",
+    "subtitle": "Entre em Contato",
+    "description": "Quer conversar? É só me mandar uma dm no instagram e eu te respondo :)"
+  },
+  "theme_toggle": {
+    "tooltip": "Tema"
+  },
+  "present": "Presente"
+}

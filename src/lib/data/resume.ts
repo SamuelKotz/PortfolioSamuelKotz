@@ -20,7 +20,7 @@ import NvidiaImg from '$lib/imgs/nvidia.png';
 import SplunkImg from '$lib/imgs/splunk.svg';
 import LimeImg from '$lib/imgs/lime.svg';
 import MitreMediaImg from '$lib/imgs/mitremedia.png';
-import IFsulImg from '$lib/imgs/ifsul.png';
+import IFsulImg from '$lib/imgs/ifsul_lajeado.jpg';
 import WaterLooImg from '$lib/imgs/waterloo.png';
 import LaurierImg from '$lib/imgs/laurier.png';
 import IBImg from '$lib/imgs/ib.png';
@@ -120,6 +120,16 @@ export let DATA = {
 			end: '2026'
 		}
 	],
+  certificates: [
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  languages: [
+      {}
+  ],
 	projects: [
 		{
 			title: 'Nova Flow',
