@@ -33,6 +33,9 @@ const config = {
         }),
         paths: {
             base: '/me'
+        },
+        prerender: {
+            handleHttpError: 'warn'
         }
 	}
 };
