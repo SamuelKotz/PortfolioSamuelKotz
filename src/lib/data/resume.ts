@@ -28,28 +28,25 @@ import IBImg from '$lib/imgs/ib.png';
 
 // Your resume data
 export let DATA = {
-	name: 'Sikandar Bhide',
-	initials: 'SB',
-	url: 'https://github.com/SikandarJODD',
+	name: 'Samuel Kotz',
+	initials: 'SK',
+	url: 'https://github.com/SamuelKotz',
 	img: 'https://i.pinimg.com/736x/9e/dc/a6/9edca66eba199828bda2dbaf35642154.jpg',
-	location: 'Mumbai, India',
-	locationLink: 'https://www.google.com/maps/place/mumbai',
+	location: 'Lajeado, Brazil',
+	locationLink: 'https://www.google.com/maps/place/lajeado',
 	description:
-		'Software Engineer turned Entrepreneur. I love building things and helping people. Very active on Twitter.',
+		'Software Developer @SupernovaBR — coffee lover, gamer, and proud Christian.',
 	summary:
-		'At the end of 2022, I quit my job as a software engineer to go fulltime into building and scaling my own SaaS businesses. In the past, [I pursued a double degree in computer science and business](/#education), [interned at big tech companies in Sil// icon Valley](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in over 21 hackathons for fun](/#hackathons). I also had the pleasure of being a part of the first ever in-person cohort of buildspace called [buildspace sf1](https://buildspace.so/sf1).',
+		'My name is Samuel Kotz, I’m 18 years old, originally from Brasília, Brazil, and currently living in Lajeado. I’m a Software Developer at @SupernovaBR, a tech company based in São Paulo, and a student at IFSul studying Industrial Automation. I’m passionate about technology and love building everything from websites and backend systems to AI applications.',
 	avatarUrl: 'https://i.pinimg.com/564x/df/d2/76/dfd276448eed0f2b6094d1cb2c9d0269.jpg',
 	skills: [
-		'Svelte',
-		'Sveltekit',
+		'Firebase',
+		'Next.js',
 		'Typescript',
 		'Node.js',
 		'Python',
-		'Go',
-		'Postgres',
-		'Docker',
-		'Kubernetes',
-		'Java',
+		'Vercel',
+		'Insomnia',
 		'C++'
 	],
 	navbar: [
@@ -58,12 +55,12 @@ export let DATA = {
 		{ href: '#', icon: CodeIcon, label: 'Projects' }
 	],
 	contact: {
-		email: 'hello@example.com',
-		tel: '+123456789',
+		email: 'samuelkotz10@gmail.com',
+		tel: '+5551984422249',
 		social: {
 			GitHub: {
 				name: 'GitHub',
-				url: 'https://github.com/SikandarJODD/portfolio-template',
+				url: 'https://github.com/SamuelKotz',
 				// // icon: Icons.github,
 				icon: GithubSvg,
 				navbar: true,
@@ -71,7 +68,7 @@ export let DATA = {
 			},
 			LinkedIn: {
 				name: 'LinkedIn',
-				url: 'https://www.linkedin.com/in/sikandar-bhide/',
+				url: 'https://www.linkedin.com/in/samuelkotz/',
 				// // icon: Icons.linkedin,
 				icon: LinkedinSvg,
 				navbar: true,
@@ -79,7 +76,7 @@ export let DATA = {
 			},
 			X: {
 				name: 'X',
-				url: 'https://twitter.com/Sikandar_Bhide',
+				url: 'https://twitter.com/SKotz10',
 				// // icon: Icons.x,
 				icon: TwitterSvg,
 				navbar: true,
@@ -112,13 +109,13 @@ export let DATA = {
 	},
 	work: [
 		{
-			company: 'Atomic Finance',
-			href: 'https://atomic.finance',
+			company: 'SupernovaBR',
+			href: 'https://supernovabr.com/',
 			badges: [],
-			location: 'Remote',
-			title: 'Bitcoin Protocol Engineer',
+			location: 'Hybrid',
+			title: 'Software Developer',
 			logoUrl: AtomicImg,
-			start: 'May 2021',
+			start: 'Sep 2024',
 			end: 'Oct 2022',
 			description:
 				'Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.'
