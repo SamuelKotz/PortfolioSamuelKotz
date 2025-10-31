@@ -7,6 +7,7 @@
 	import ModeToggle from './ModeToggle.svelte';
 	import Button from '$lib/components/ui/button/button.svelte';
 	import { mode } from 'mode-watcher';
+    import { base } from '$app/paths';
 	$: theme = $mode;
 </script>
 
@@ -26,7 +27,7 @@
 			<DockIcon {magnification} {mouseX} {distance}>
 				<Tooltip.Root openDelay={300}>
 					<Tooltip.Trigger>
-						<Button href={item.href} variant="ghost" size="icon" class="size-12 rounded-full">
+						<Button href="{base}{item.href}" variant="ghost" size="icon" class="size-12 rounded-full">
 							<!-- <item.icon class="size-4" /> -->
 							<svelte:component this={item.icon} class="size-[18px]" strokeWidth={1.5} />
 						</Button>
@@ -44,12 +45,12 @@
 			<DockIcon {magnification} {mouseX} {distance}>
 				<Tooltip.Root openDelay={300}>
 					<Tooltip.Trigger>
-						<Button href={social.url} variant="ghost" size="icon" class="size-12 rounded-full">
+						<Button href="{social.url}" variant="ghost" size="icon" class="size-12 rounded-full">
 							<!-- <svelte:component this={social.icon} class="size-4" strokeWidth={1.5} /> -->
 							{#if social?.dark_icon && theme === 'dark'}
-								<img src={social?.dark_icon} class="size-4" alt={social.name} />
+								<img src="{social?.dark_icon}" class="size-4" alt="{social.name}" />
 							{:else}
-								<img src={social.icon} class="size-[18px]" alt={social.name} />
+								<img src="{social.icon}" class="size-[18px]" alt="{social.name}" />
 							{/if}
 						</Button>
 					</Tooltip.Trigger>

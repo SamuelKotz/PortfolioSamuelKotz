@@ -5,9 +5,6 @@ import GithubDarkSvg from '$lib/imgs/github-dark.svg';
 import InstagramSvg from '$lib/imgs/instagram.svg';
 import InstagramDarkSvg from '$lib/imgs/instagram-dark.svg';
 
-import PeerListSvg from '$lib/imgs/peerlist.svg';
-import PeerListDarkSvg from '$lib/imgs/peerlist-dark.svg';
-
 import GmailSvg from '$lib/imgs/gmail.svg';
 import GmailDarkSvg from '$lib/imgs/gmail-dark.svg';
 
