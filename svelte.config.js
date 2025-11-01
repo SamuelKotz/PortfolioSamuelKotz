@@ -28,12 +28,12 @@ const config = {
 		adapter: adapter({
             pages: 'docs',
             assets: 'docs',
-            fallback: '404.html', // Use 404.html as a fallback for routing
+            fallback: '404.html',
             precompress: false,
             strict: true
         }),
         paths: {
-            base: process.env.NODE_ENV === 'development' ? '' : '/me'
+            base: process.env.NODE_ENV === 'production' ? '/me' : ''
         },
         prerender: {
             entries: ['*']
