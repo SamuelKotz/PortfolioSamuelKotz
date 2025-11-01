@@ -28,7 +28,7 @@ const config = {
 		adapter: adapter({
             pages: 'docs',
             assets: 'docs',
-            fallback: null,
+            fallback: '404.html', // Use 404.html as a fallback for routing
             precompress: false,
             strict: true
         }),
