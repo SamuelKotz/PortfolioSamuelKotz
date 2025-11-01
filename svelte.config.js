@@ -26,14 +26,14 @@ const config = {
 
 	kit: {
 		adapter: adapter({
-            pages: 'build',
-            assets: 'build',
-            fallback: 'index.html',
+            pages: 'docs',
+            assets: 'docs',
+            fallback: null,
             precompress: false,
             strict: true
         }),
         paths: {
-            base: '/me'
+            base: process.env.NODE_ENV === 'development' ? '' : '/me'
         },
         prerender: {
             entries: ['*']
