@@ -5,16 +5,30 @@
   "description": "Desenvolvedor de Software @SupernovaBR — amante de café, jogador e cristão orgulhoso.",
   "summary": "Meu nome é Samuel Kotz, tenho 18 anos, sou natural de Brasília, Brasil, e atualmente moro em Lajeado. Sou Desenvolvedor de Software na @SupernovaBR, uma empresa de tecnologia com sede em São Paulo, e estudante do IFSul no curso de Automação Industrial. Sou apaixonado por tecnologia e adoro construir de tudo, desde sites e sistemas de backend até aplicações de IA.",
   "navbar": [
-    { "label": "Início" },
-    { "label": "Projetos" }
+    {
+      "label": "Início"
+    },
+    {
+      "label": "Projetos"
+    }
   ],
   "contact": {
     "social": {
-      "GitHub": { "name": "GitHub" },
-      "LinkedIn": { "name": "LinkedIn" },
-      "X": { "name": "X" },
-      "Instagram": { "name": "Instagram" },
-      "email": { "name": "Enviar Email" }
+      "GitHub": {
+        "name": "GitHub"
+      },
+      "LinkedIn": {
+        "name": "LinkedIn"
+      },
+      "X": {
+        "name": "X"
+      },
+      "Instagram": {
+        "name": "Instagram"
+      },
+      "email": {
+        "name": "Enviar Email"
+      }
     }
   },
   "work": [
@@ -67,9 +81,14 @@
   },
   "languages": [
     {
+      "language": "Português",
+      "school": "Nativo",
+      "description": "Fluente/Nativo"
+    },
+    {
       "language": "Inglês",
       "school": "UPTIME",
-      "description": "Escrita intermediária | Leitura e compreensão avançada"
+      "description": "Fluência certificada B2"
     }
   ],
   "projects": [
@@ -105,7 +124,7 @@
   "contact_section": {
     "title": "Contato",
     "subtitle": "Entre em Contato",
-    "description": "Quer conversar? É só me mandar uma dm no instagram e eu te respondo :)"
+    "description": "Quer conversar? É só me mandar uma dm no Linkedin e eu te respondo :)"
   },
   "theme_toggle": {
     "tooltip": "Tema"

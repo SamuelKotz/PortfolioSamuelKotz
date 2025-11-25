@@ -120,16 +120,17 @@ export let DATA = {
 			end: '2026'
 		}
 	],
-  certificates: [
-    {},
-    {},
-    {},
-    {},
-    {}
-  ],
-  languages: [
-      {}
-  ],
+	certificates: [
+		{},
+		{},
+		{},
+		{},
+		{}
+	],
+	languages: [
+		{},
+		{}
+	],
 	projects: [
 		{
 			title: 'Nova Flow',

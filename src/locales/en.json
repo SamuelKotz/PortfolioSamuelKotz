@@ -5,16 +5,30 @@
   "description": "Software Developer @SupernovaBR — coffee lover, gamer, and proud Christian.",
   "summary": "My name is Samuel Kotz, I'm 18 years old, originally from Brasília, Brazil, and currently living in Lajeado. I'm a Software Developer at @SupernovaBR, a tech company based in São Paulo, and a student at IFSul studying Industrial Automation. I'm passionate about technology and love building everything from websites and backend systems to AI applications.",
   "navbar": [
-    { "label": "Home" },
-    { "label": "Projects" }
+    {
+      "label": "Home"
+    },
+    {
+      "label": "Projects"
+    }
   ],
   "contact": {
     "social": {
-      "GitHub": { "name": "GitHub" },
-      "LinkedIn": { "name": "LinkedIn" },
-      "X": { "name": "X" },
-      "Instagram": { "name": "Instagram" },
-      "email": { "name": "Send Email" }
+      "GitHub": {
+        "name": "GitHub"
+      },
+      "LinkedIn": {
+        "name": "LinkedIn"
+      },
+      "X": {
+        "name": "X"
+      },
+      "Instagram": {
+        "name": "Instagram"
+      },
+      "email": {
+        "name": "Send Email"
+      }
     }
   },
   "work": [
@@ -67,9 +81,14 @@
   },
   "languages": [
     {
+      "language": "Portuguese",
+      "school": "Native",
+      "description": "Fluent/Native"
+    },
+    {
       "language": "English",
       "school": "UPTIME",
-      "description": "Intermediate writing | Advanced reading and comprehension"
+      "description": "Certified B2 Fluency"
     }
   ],
   "projects": [
@@ -105,7 +124,7 @@
   "contact_section": {
     "title": "Contact",
     "subtitle": "Get in Touch",
-    "description": "Want to chat? Just shoot me a dm on instagram and I'll respond you :)"
+    "description": "Want to chat? Just shoot me a dm on Linkedin and I'll respond you :)"
   },
   "theme_toggle": {
     "tooltip": "Theme"
