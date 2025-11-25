@@ -133,7 +133,7 @@ export let DATA = {
 			degree: 'High SchoolIntegrated high school with a technical course in industrial automation',
 			logoUrl: IFsulImg,
 			start: '2023',
-			end: '2026'
+			end: '2025'
 		}
 	],
 	certificates: [
