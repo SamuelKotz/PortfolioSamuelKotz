@@ -47,9 +47,25 @@ export let DATA = {
 		'Typescript',
 		'Node.js',
 		'Python',
+		'PHP',
+		'Laravel',
+		'XAMPP',
+		'Apache',
 		'Vercel',
 		'Insomnia',
-		'C++'
+		'C++',
+		'MySQL',
+		'noSQL',
+		'AWS',
+		'Git',
+		'Github',
+		'Javascript',
+		'Shadcn UI',
+		'HTML',
+		'CSS',
+		'Svelte',
+		'AI',
+		'TailwindCSS'
 	],
 	navbar: [
 		{ href: '/', icon: HomeIcon, label: 'Home' },
@@ -121,6 +137,8 @@ export let DATA = {
 		}
 	],
 	certificates: [
+		{},
+		{},
 		{},
 		{},
 		{},
